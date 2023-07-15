@@ -11,8 +11,8 @@
 //
 //     }
 
-     static void show(mobile obj1) {
-         System.out.println(obj1.brand + ":" + obj1.price + " " + name);//here by passing obj referce non static varible used in static method//
+     static void show(mobile obj) {
+         System.out.println(obj.brand + ":" + obj.price + " " + name);//here by passing obj referce non static varible used in static method//
 
      }
  }
@@ -30,7 +30,7 @@
           obj2.show1();
           //
           // mobile.show();//how do we know which object i am refering to//
-          mobile.show(obj1)//by passing obj
+          mobile.show(obj1) ;//by passing obj
 
 
       }
